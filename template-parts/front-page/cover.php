@@ -12,6 +12,11 @@ $default_cover_lead = get_bloginfo('description');
             <button style="border: solid 3px white; width: 200px; border-radius:30px; background:transparent;color:white; height: 50px">SPENDEN</button>
             <button style="border: solid 3px white; width: 200px; border-radius:30px; background:transparent;color:white; height: 50px; margin-left:10px">HELFEN</button>
         </div>
+        <button style="background-color: #FA6400;border: solid 3px white; width: 200px; border-radius:30px; height: 50px; color:white; position: absolute; right:30px; margin-top: -140px">BEDARF ANMELDEN</button>
+        <div style="background-color: #FA6400; width: 200px; border-radius:30px; height: 160px; color:white; position: absolute; right:30px; margin-top:80px;     box-shadow: 0px 0px 30px -10px black;">
+            <br><br><br>Hilf uns beim Helfen!<br>
+            <button style="background-color: #FA6400;border: solid 3px white; width: 180px; border-radius:30px; height: 50px; color:white;">SPENDEN</button>
+        </div>
         <div class="container" style="margin-top: 60px">
             <h1 class="jumbotron-heading"><?php echo wp_kses_post(get_theme_mod('front_cover_title', $default_cover_title)); ?></h1>
             <p class="lead mb-4"><?php echo wp_kses_post(get_theme_mod('front_cover_lead', $default_cover_lead)); ?></p>
