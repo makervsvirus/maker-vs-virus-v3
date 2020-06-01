@@ -1059,3 +1059,8 @@ h5 {
     width: 100%;
     ;
 }
+
+button:focus {
+    box-shadow: none !important;
+    outline: none !important;
+}
